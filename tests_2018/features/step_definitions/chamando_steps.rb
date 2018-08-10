@@ -16,6 +16,6 @@ Quando("revendo {int} laranjas") do |valor2|
 
 end
 
-Então("eu verifico com quantas laranjas eu fiquei;") do
+Então("eu verifico com quantas laranjas eu fiquei.") do
     expect(@resultado).to eq 8
 end
